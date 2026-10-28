@@ -1,0 +1,19 @@
+
+# Logs and temporary backups
+*.log
+*.bak
+
+# AI editor and agent files
+**/.agents/
+**/.claude/
+**/.windsurf/
+**/.vscode/
+
+# Temporary backup files
+*.bak
+
+# AI agent files
+**/.agents/
+**/.claude/
+**/.windsurf/
+**/.vscode/
