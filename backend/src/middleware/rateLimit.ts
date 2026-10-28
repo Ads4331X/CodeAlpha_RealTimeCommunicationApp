@@ -1,5 +1,4 @@
-import rateLimit from "express-rate-limit";
-
+import { rateLimit } from "express-rate-limit";
 export const otpLimiter = rateLimit({
   windowMs: 60 * 1000, // 1 minute
   limit: 1, // 1 request per minute
